@@ -15,8 +15,9 @@ class HomeViewModel extends ChangeNotifier {
   }
 
   Future requestMoreData(int pageRequest) async {
+    print('requestMoreData for page: $pageRequest with current: $_currentPage');
+
     if (pageRequest > _currentPage) {
-      print('requestMoreData for page: $pageRequest');
       _currentPage = pageRequest;
       _showLoadingItem();
 
