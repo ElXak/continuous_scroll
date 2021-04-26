@@ -1,6 +1,6 @@
 # continuous_scroll
 
-A new Flutter project.
+Continuous Scrolling using Flutter Only.
 
 ## Getting Started
 
